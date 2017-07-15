@@ -1,0 +1,20 @@
+{
+  "name": "github-trend-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes the trending repositories off of GitHub.com",
+  "main": "index.js",
+  "repository": "https://github.com/Rayzr522/github-trend-scraper",
+  "author": "Rayzr",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "snekfetch": "^3.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0"
+  },
+  "scripts": {
+    "start": "node --harmony .",
+    "lint": "eslint --fix index.js"
+  }
+}
